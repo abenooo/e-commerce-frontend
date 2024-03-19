@@ -23,20 +23,20 @@ const Header = () => {
 
           {/* second div */}
 
-          <div className=" text-gray-500 text-mal">
+          <div className=" text-gray-500 text-[12px]">
             <strong>FREE SHIPPING </strong>
             THIS WEEK ORDER OVER - $55
           </div>
 
           {/* third div */}
-          <div>
-            <select name="currency" id="currency">
+          <div className="flex gap-4">
+            <select name="currency" id="currency" className="text-gray-500 text-[12px] w-[78px]">
               <option value="usd">USD $</option>
               <option value="pound">Pound £ </option>
               <option value="euro">Euro € </option>
             </select>
 
-            <select name="language" id="language">
+            <select name="language" id="language" className="text-gray-500 text-[12px] w-[80px]">
               <option value="Amharic">Amharic</option>
               <option value="english">English</option>
             </select>
