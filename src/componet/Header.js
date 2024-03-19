@@ -2,7 +2,8 @@ import React from "react";
 import { BsFacebook, BsTwitter, BsInstagram, BsLinkedin } from "react-icons/bs";
 const Header = () => {
   return (
-    <div>
+    <div className="border-b border-gray-200 hidden sm:block">
+      <div></div>
       <div>
         <div>
           <div>
@@ -22,11 +23,8 @@ const Header = () => {
           </div>
 
           {/* second div */}
-          <div className="text-red-500">
-            <strong>FREE SHOP</strong> for sale -50$
-          </div>
 
-          <div className=" text-red-500 text-mal">
+          <div className=" text-gray-500 text-mal">
             <strong>FREE SHIPPING</strong>
             THIS WEEK ORDER OVER - $55
           </div>
