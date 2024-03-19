@@ -3,21 +3,20 @@ import { BsFacebook, BsTwitter, BsInstagram, BsLinkedin } from "react-icons/bs";
 const Header = () => {
   return (
     <div className="border-b border-gray-200 hidden sm:block">
-      <div></div>
-      <div>
-        <div>
-          <div>
+      <div className="container py-4">
+        <div className="flex justify-between items-center">
+          <div className="hidden lg:flex gap-1">
             {/* first div */}
-            <div>
+            <div className="header_icons">
               <BsFacebook />
             </div>
-            <div>
+            <div className="header_icons">
               <BsTwitter />
             </div>
-            <div>
+            <div className="header_icons">
               <BsInstagram />
             </div>
-            <div>
+            <div className="header_icons">
               <BsLinkedin />
             </div>
           </div>
@@ -25,7 +24,7 @@ const Header = () => {
           {/* second div */}
 
           <div className=" text-gray-500 text-mal">
-            <strong>FREE SHIPPING</strong>
+            <strong>FREE SHIPPING </strong>
             THIS WEEK ORDER OVER - $55
           </div>
 
