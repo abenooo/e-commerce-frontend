@@ -4,7 +4,8 @@ import Header from "@/componet/Header";
 import MainHeader from "@/componet/MainHeader";
 import Navbar from "@/componet/Navbar";
 import MobileNav from "@/componet/MobileNav";
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
