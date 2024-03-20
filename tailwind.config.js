@@ -19,6 +19,9 @@ module.exports = {
         blackish:"#1b1b1b"
       }
     },
+    variants: {
+      display: ['responsive', 'group-hover', 'group-focus'],
+     },
   },
   plugins: [],
 }
