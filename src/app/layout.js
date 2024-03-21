@@ -7,6 +7,8 @@ import MobileNav from "@/componet/MobileNav";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const inter = Inter({ subsets: ["latin"] });
+import Footer from "@/componet/Footer";
+import Testimonial from "@/componet/Testimonial";
 
 export const metadata = {
   title: "Create Next App",
@@ -14,6 +16,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -21,7 +24,11 @@ export default function RootLayout({ children }) {
         <MainHeader/>
         <Navbar/>
         <MobileNav/>
-        {children}</body>
+        {children}
+       
+        <Testimonial/>
+        <Footer/>
+        </body>
     </html>
   );
 }
