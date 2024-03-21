@@ -1,5 +1,5 @@
 import React from "react";
-import ProductComponet from "./ProductComponet";
+import ProductCard from "./ProductCard";
 const Product = () => {
   const productsData = [
     {
@@ -13,18 +13,18 @@ const Product = () => {
       img: "/jacket-2.jpg",
       title: "Jacket",
       desc: "New men jacket",
-      rating: 5,
+      rating: 3,
       price: "55.00",
     },
     {
-      img: "/skirt.jpg",
+      img: "/skirt-1.jpg",
       title: "Jacket",
       desc: "New men jacket",
-      rating: 5,
+      rating: 3,
       price: "55.00",
     },
     {
-      img: "/jparty-wear-1.jpg",
+      img: "/party-wear-1.jpg",
       title: "JacPartyket",
       desc: "New men jacket",
       rating: 5,
@@ -34,7 +34,7 @@ const Product = () => {
       img: "/shirt-1.jpg",
       title: "Shirt",
       desc: "New men jacket",
-      rating: 5,
+      rating: 3,
       price: "55.00",
     },
     {
@@ -62,11 +62,11 @@ const Product = () => {
 
   return (
     <div>
-      <div>
-        <h2>New Product</h2>
-        <div>
+      <div className="container pt-16">
+        <h2 className="font-medium text-2xl pb-4">New Product</h2>
+        <div className="grid grid-cols-1 place-items-center sm:place-items-start sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 xl:gap-20">
           {productsData.map((item, index) => {
-            return <ProductComponet 
+            return <ProductCard 
             key={index}
             img={item.img}
             title={item.title}
