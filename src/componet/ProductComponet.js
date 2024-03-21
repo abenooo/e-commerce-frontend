@@ -67,10 +67,11 @@ const ProductComponet = ({ title, img, desc, rating, price }) => {
       <div>
         <h1>{title}</h1>
         <p>{desc}</p>
+        <div>{generateRating(rating)}</div>
       </div>
-      <div>{rating}</div>
       <div>
         <p> {price}</p>
+        <del>${parseInt(price) + 50} .00</del>
       </div>
     </div>
   );
