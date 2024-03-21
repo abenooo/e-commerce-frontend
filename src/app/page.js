@@ -1,10 +1,10 @@
 import Carousel from "@/componet/Carousel";
-import Image from "next/image";
-
+import Product from "@/componet/Product";
 export default function Home() {
   return (
    <main>
     <Carousel />
+    <Product/>
    </main>
   );
 }
