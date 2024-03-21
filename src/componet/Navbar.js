@@ -13,12 +13,11 @@ const Navbar = () => {
           <div className="navbar_link relative cursor-pointer">Perfume</div>
           <div className="navbar_link relative cursor-pointer">Blog</div>
           <div className="navbar_link relative cursor-pointer">Hot Offer</div>
-          <nav
+          
+          <div
             aria-label="primary"
-            class="relative z-20 flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row"
-          >
-          </nav>
-
+            class="relative z-20 flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
+          </div>
           <div
             aria-label="primary"
             className="relative z-20 flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row"
