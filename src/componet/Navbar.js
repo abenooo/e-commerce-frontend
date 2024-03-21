@@ -16,7 +16,7 @@ const Navbar = () => {
           
           <div
             aria-label="primary"
-            class="relative z-20 flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
+            className="relative z-20 flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
           </div>
           <div
             aria-label="primary"
@@ -50,7 +50,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <nav aria-label="primary" class="bg-white shadow-lg"></nav>
+          <nav aria-label="primary" className="bg-white shadow-lg"></nav>
         </div>
       </div>
     </div>
