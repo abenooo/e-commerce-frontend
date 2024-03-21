@@ -16,7 +16,8 @@ module.exports = {
       },
       colors:{
         accent:"#808080",
-        blackish:"#1b1b1b"
+        blackish:"#1b1b1b",
+        blueBg:"#2dcc6f",
       }
     },
     variants: {
