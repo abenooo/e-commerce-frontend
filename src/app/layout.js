@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <MobileNav/>
         {children}
        
-        <Testimonial/>
+        {/* <Testimonial/> */}
         <Footer/>
         </body>
     </html>

@@ -30,7 +30,7 @@ export default function Home() {
    <main>
     <Carousel />
     <Product/>
-    <Testimonial/>
+    {/* <Testimonial/> */}
     <Banner data={BannerData}/>
    </main>
   );
