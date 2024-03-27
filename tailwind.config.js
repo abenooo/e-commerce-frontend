@@ -18,11 +18,9 @@ module.exports = {
         accent:"#808080",
         blackish:"#1b1b1b",
         blueBg:"#2dcc6f",
+        primary: "#4A3AFF",
       }
-    },
-    variants: {
-      display: ['responsive', 'group-hover', 'group-focus'],
-     },
+    }
   },
   plugins: [],
 }
