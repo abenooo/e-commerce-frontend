@@ -31,7 +31,7 @@ const NavLinks = () => {
             </h1>
             {link.submenu && (
               <div>
-                <div className="absolute w-full left-0 top-20 hidden group-hover:md:block hover:md:block border-4 border-gray-800 -ml-16">
+                <div className="absolute w-full left-0 top-20 hidden group-hover:md:block hover:md:block border-4 border-gray-800">
                   <div className="py-3">
                     <div
                       className="w-4 h-4 left-3 absolute 
@@ -40,13 +40,7 @@ const NavLinks = () => {
                   </div>
                   <div className="bg-white p-5 grid grid-cols-4 gap-5">
                     {/* Image container now spans 2 out of 4 columns */}
-                    <div className="col-span-2">
-                      <img
-                        src="../image-4.jpg"
-                        alt="logo"
-                        className="md:cursor-pointer rounded-lg h-[300px] w-full object-cover"
-                      />
-                    </div>
+                  
 
                     {/* Items container (remaining content) */}
                     <div className="col-span-2 grid grid-cols-2 gap-5">
@@ -69,6 +63,13 @@ const NavLinks = () => {
                           </ul>
                         </div>
                       ))}
+                    </div>
+                    <div className="col-span-2">
+                      <img
+                        src="../image-4.jpg"
+                        alt="logo"
+                        className="md:cursor-pointer rounded-lg h-[300px] w-full object-cover"
+                      />
                     </div>
                   </div>
 
