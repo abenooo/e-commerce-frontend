@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "next/link";
 import { links } from "./Mylinks";
-
+import Image from "next/image";
 const NavLinks = () => {
   const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState("");
@@ -9,7 +9,7 @@ const NavLinks = () => {
     <>
       {links.map((link) => (
         <div>
-          <div className="px-3 text-left md:cursor-pointer group">
+          <div className="px-3  text-left md:cursor-pointer group">
             <h1
               className="py-7 flex justify-between items-center md:pr-0 pr-5 group"
               onClick={() => {
@@ -31,14 +31,56 @@ const NavLinks = () => {
             </h1>
             {link.submenu && (
               <div>
-                <div className="absolute top-20 hidden group-hover:md:block hover:md:block">
+                <div className="absolute w-full left-0 top-20 hidden group-hover:md:block hover:md:block border-4 border-gray-800 -ml-16">
                   <div className="py-3">
                     <div
                       className="w-4 h-4 left-3 absolute 
                     mt-1 bg-white rotate-45"
                     ></div>
                   </div>
-                  <div className="bg-white p-5 grid grid-cols-3 gap-10">
+                  <div className="bg-white p-5 grid grid-cols-4 gap-5">
+                    {/* Image container now spans 2 out of 4 columns */}
+                    <div className="col-span-2">
+                      <img
+                        src="../image-4.jpg"
+                        alt="logo"
+                        className="md:cursor-pointer rounded-lg h-[300px] w-full object-cover"
+                      />
+                    </div>
+
+                    {/* Items container (remaining content) */}
+                    <div className="col-span-2 grid grid-cols-2 gap-5">
+                      {link.sublinks.map((mysublinks, index) => (
+                        <div key={index} className="col-span-1">
+                          <h1 className="text-lg font-semibold">
+                            {mysublinks.Head}
+                          </h1>
+                          <ul>
+                            {" "}
+                            {/* Each group of sublinks should be in a separate list */}
+                            {mysublinks.sublink.map((slink, subIndex) => (
+                              <li
+                                key={subIndex}
+                                className="text-sm text-gray-600 my-2.5 hover:text-primary"
+                              >
+                                <a href={slink.link}>{slink.name}</a>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* <div className="bg-white p-5 grid grid-cols-3  gap-5  ">
+                    <div>
+                      <img
+                        src="../image-4.jpg"
+                        alt="logo"
+                        className="md:cursor-pointer  h-[300px] w-full object-cover"
+                      />
+                    </div>
+
                     {link.sublinks.map((mysublinks) => (
                       <div>
                         <h1 className="text-lg font-semibold">
@@ -56,7 +98,7 @@ const NavLinks = () => {
                         ))}
                       </div>
                     ))}
-                  </div>
+                  </div> */}
                 </div>
               </div>
             )}
