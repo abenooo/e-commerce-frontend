@@ -6,6 +6,7 @@ export const links = [
     sublinks: [
       {
         Head: "Topwear",
+        imageURL: "asset/$_570.jpeg", 
         sublink: [
           { name: "T-shirt", link: "/" },
           { name: "Casual shirts", link: "/" },
@@ -32,6 +33,7 @@ export const links = [
     sublinks: [
       {
         Head: "Topwear",
+        imageURL: "asset/$_570.jpeg", 
         sublink: [
           { name: "T-shirt", link: "/" },
           { name: "Casual shirts", link: "/" },
@@ -59,6 +61,7 @@ export const links = [
     sublinks: [
       {
         Head: "Topwear",
+        imageURL: "asset/$_572.jpeg", 
         sublink: [
           { name: "T-shirt", link: "/" },
           { name: "Casual shirts", link: "/" },
@@ -82,6 +85,7 @@ export const links = [
   {
     name: "Women",
     submenu: true,
+    imageURL: "asset/$_573.jpeg", 
     sublinks: [
       {
         Head: "Topwear",
@@ -112,6 +116,7 @@ export const links = [
     sublinks: [
       {
         Head: "Topwear",
+        imageURL: "asset/$_574.jpeg", 
         sublink: [
           { name: "T-shirt", link: "/" },
           { name: "Casual shirts", link: "/" },
@@ -138,6 +143,7 @@ export const links = [
     sublinks: [
       {
         Head: "Topwear",
+        imageURL:"asset/$_574.jpeg", 
         sublink: [
           { name: "T-shirt", link: "/" },
           { name: "Casual shirts", link: "/" },
@@ -165,6 +171,7 @@ export const links = [
     sublinks: [
       {
         Head: "Bottomwear",
+        imageURL: "asset/$_575.jpeg", 
         sublink: [
           { name: "T-shirt", link: "/" },
           { name: "Casual shirts", link: "/" },
@@ -193,6 +200,7 @@ export const links = [
 
       {
         Head: "sleepwear",
+        imageURL: "asset/$_576.jpeg", 
         sublink: [
           { name: "T-shirt", link: "/" },
           { name: "Casual shirts", link: "/" },
@@ -219,6 +227,7 @@ export const links = [
     sublinks: [
       {
         Head: "Topwear",
+        imageURL: "asset/$_577.jpeg", 
         sublink: [
           { name: "T-shirt", link: "/" },
           { name: "Casual shirts", link: "/" },
