@@ -72,34 +72,6 @@ const NavLinks = () => {
                       />
                     </div>
                   </div>
-
-                  {/* <div className="bg-white p-5 grid grid-cols-3  gap-5  ">
-                    <div>
-                      <img
-                        src="../image-4.jpg"
-                        alt="logo"
-                        className="md:cursor-pointer  h-[300px] w-full object-cover"
-                      />
-                    </div>
-
-                    {link.sublinks.map((mysublinks) => (
-                      <div>
-                        <h1 className="text-lg font-semibold">
-                          {mysublinks.Head}
-                        </h1>
-                        {mysublinks.sublink.map((slink) => (
-                          <li className="text-sm text-gray-600 my-2.5">
-                            <li
-                              href={slink.link}
-                              className="hover:text-primary"
-                            >
-                              {slink.name}
-                            </li>
-                          </li>
-                        ))}
-                      </div>
-                    ))}
-                  </div> */}
                 </div>
               </div>
             )}
