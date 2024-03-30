@@ -31,7 +31,7 @@ export default function Home() {
 
   return (
     <>
-      <Script
+      {/* <Script
         src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
         strategy="beforeInteractive"
         type="module"
@@ -40,7 +40,7 @@ export default function Home() {
         src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
         strategy="beforeInteractive"
         nomodule
-      />
+      /> */}
       <main>
         <Carousel />
         <Product />
