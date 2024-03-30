@@ -39,13 +39,13 @@ function Footer() {
                                     <div role="button" >Reserve for Others</div>
                                 </li>
                                 <li className={styles.footerLinks}>
-                                    <a href='https://www.opentable.com.au/nearby' title='Restaurants near me'>Restaurants near me</a>
+                                    <a href='#' title='Restaurants near me'>Restaurants near me</a>
                                 </li>
                                 <li className={styles.footerLinks}>
-                                    <a href='https://www.opentable.com.au/delivery' title='Delivery near me'>Delivery near me</a>
+                                    <a href='#' title='Delivery near me'>Delivery near me</a>
                                 </li>
                                 <li className={styles.footerLinks}>
-                                    <a href='https://www.opentable.com.au/open' title='Restaurants Open Now'>Restaurants Open Now</a>
+                                    <a href='#' title='Restaurants Open Now'>Restaurants Open Now</a>
                                 </li>
                             </ul>
 
