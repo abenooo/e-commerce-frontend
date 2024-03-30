@@ -109,33 +109,6 @@ function Footer() {
                                     <li className={styles.footerLinks}>
                                         <a href='#' title='የኛ Shop.hk'>የኛ Shop.hk</a>
                                     </li>
-                                    <li className={styles.footerLinks}>
-                                        <a href='#' title='የኛ Shop.ie'>የኛ Shop.ie</a>
-                                    </li>
-                                    <li className={styles.footerLinks}>
-                                        <a href='#' title='የኛ Shop.sg'>የኛ Shop.sg</a>
-                                    </li>
-                                    <li className={styles.footerLinks}>
-                                        <a href='#' title='የኛ Shop.nl'>የኛ Shop.nl</a>
-                                    </li>
-                                    <li className={styles.footerLinks}>
-                                        <a href='#' title='የኛ Shop.com.mx'>የኛ Shop.com.mx</a>
-                                    </li>
-                                    <li className={styles.footerLinks}>
-                                        <a href='#' title='የኛ Shop.co.uk'>የኛ Shop.co.uk</a>
-                                    </li>
-                                    <li className={styles.footerLinks}>
-                                        <a href='#' title='የኛ Shop.ae'>የኛ Shop.ae</a>
-                                    </li>
-                                    <li className={styles.footerLinks}>
-                                        <a href='#' title='የኛ Shop.co.th'>የኛ Shop.co.th</a>
-                                    </li>
-                                    <li className={styles.footerLinks}>
-                                        <a href='#' title='የኛ Shop.it'>የኛ Shop.it</a>
-                                    </li>
-                                    <li className={styles.footerLinks}>
-                                        <a href='#' title='የኛ Shop.com.tw'>የኛ Shop.com.tw</a>
-                                    </li>
                                 </ul>
 
                             </div>
