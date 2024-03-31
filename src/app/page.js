@@ -7,7 +7,7 @@ import Banner from "@/componet/Banner";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React from "react";
-
+import NextNProgress from "nextjs-progressbar";
 export default function Home() {
   const BannerData = {
     discount: "30% OFF",
@@ -31,17 +31,14 @@ export default function Home() {
 
   return (
     <>
-      <Script
-        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-        strategy="beforeInteractive"
-        type="module"
-      />
-      <Script
-        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-        strategy="beforeInteractive"
-        nomodule
-      />
       <main>
+      <NextNProgress
+        color="#29D"
+        startPosition={0.3}
+        stopDelayMs={200}
+        height={3}
+        showOnShallow={true}
+      />
         <Carousel />
         <Product />
         {/* <Testimonial/> */}

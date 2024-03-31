@@ -7,12 +7,12 @@ const Navbar = () => {
   return (
     <nav className="bg-white sticky top-0 z-50">
       <div className="flex items-start font-medium justify-around">
-        <div className="z-50 p-5 md:w-auto w-full flex justify-between">
-          {/* <img src="../image-4.jpg" alt="logo" className="md:cursor-pointer h-10 w-10" /> */}
+        {/* <div className="z-50 p-5 md:w-auto w-full flex justify-between">
+          <img src="../image-4.jpg" alt="logo" className="md:cursor-pointer h-10 w-10" />
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
-        </div>
+        </div> */}
         <ul className="md:flex  relative hidden uppercase items-center gap-8 font-[Poppins]">
           <li>
             <li to="/" className="py-7 px-3 inline-block">
