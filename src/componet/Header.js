@@ -39,6 +39,8 @@ const Header = () => {
             <select name="language" id="language" className="text-gray-500 text-[12px] w-[80px]">
               <option value="Amharic">Amharic</option>
               <option value="english">English</option>
+              <option value="english">Spanish</option>
+              <option value="english">Chince</option>
             </select>
           </div>
         </div>

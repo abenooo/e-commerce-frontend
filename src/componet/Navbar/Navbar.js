@@ -10,18 +10,15 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-white sticky top-0 z-50 shadow">
-      <div className="flex items-center justify-between p-5 max-w-6xl mx-auto">
-        {/* Assuming you have a logo or simply use text for branding */}
-        <div className="font-bold text-xl">
-          <Link href="/">Logo</Link>
+    <nav className="bg-white sticky top-0 z-50">
+      <div className="flex items-start font-medium justify-around">
+        <div className="z-50 p-5 md:w-auto w-full flex justify-between">
+          {/* <img src="../image-4.jpg" alt="logo" className="md:cursor-pointer h-10 w-10" /> */}
+          <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
+            <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
+          </div>
         </div>
-        {/* Toggler Icon */}
-        <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
-          {open ? <IoClose /> : <IoMenu />}
-        </div>
-        {/* Desktop Menu Items */}
-        <ul className={`md:flex hidden relative uppercase items-center gap-8 font-medium`}>
+        <ul className="md:flex  relative hidden uppercase items-center gap-8 font-[Poppins]">
           <li>
             <Link href="/">Home</Link>
           </li>

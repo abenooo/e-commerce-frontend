@@ -1,0 +1,82 @@
+
+.outermostfooter{
+    @apply bg-[#F5F9FC]
+      }
+      .footer{
+        @apply  2xl:max-w-[91%] mx-auto
+      }
+      .mainContainer{
+        @apply bg-[#fff] lg:bg-[#f5f9fc] py-12 lg:px-12 2xl:px-0 sm:px-6 lg:py-16   
+      }
+      .parentWraper{
+        @apply flex gap-[10px] justify-between xl:grid flex-wrap xl:grid-cols-4 2xl:grid-cols-4  px-[24px]
+      }
+      .contactWraper{
+        @apply flex break-words leading-6 flex-wrap 
+      }
+      .forDeskEmail{
+        @apply hidden xl:flex break-words leading-6 flex-wrap
+      }
+      .forMobileEmail{
+        @apply flex xl:hidden break-words leading-6 flex-wrap
+      }
+      .forDeskPara{
+        @apply hidden xl:block text-[16px] leading-[20px] text-gray-600
+      }
+      .forMobilePara{
+        @apply xl:hidden text-[11px] font-normal text-gray-600 leading-[16px]
+      }
+      .firstDiv{
+        @apply  break-words  xl:mt-0  w-[45%] xl:w-full
+      }
+      .footerLinks{
+       @apply min-w-[163px] text-[14px] leading-[21px] lg:leading-[19px] lg:text-[16px] space-y-0 text-gray-500 hover:text-gray-900
+      }
+      .firstDivWraper{
+        @apply xl:hidden mb-7
+      }
+      .unorderList{
+        @apply space-y-[10px] 
+        
+      }
+      .footerMainLinks{
+        @apply text-[14px] leading-[21px] lg:text-[16px] lg:leading-[19px] font-medium text-gray-800 mb-4 xl:mb-[24px]
+    
+      }
+      .happySitterLinks{
+        @apply text-[11px] leading-[1px] lg:text-[14px] font-normal text-gray-600
+      }
+      .secondDiv{
+        @apply w-[45%] xl:w-full grid  xl:grid-cols-3  2xl:grid-cols-4 xl:col-span-3 gap-6  2xl:col-span-3
+      }
+      .secondDivWraper{
+        @apply xl:grid-cols-3 md:gap-8
+      }
+      .thirdDiv{
+        @apply hidden xl:block
+      }
+      .fourthDiv{
+        @apply xl:grid-cols-2 md:gap-8 hidden xl:hidden 2xl:block
+      }
+    .fifthDiv{
+      @apply hidden xl:grid
+    }
+    .largeButtonWraper{
+      @apply justify-end mt-[29px] min-[450px]:mr-4 flex xl:hidden w-full
+    }
+    .copyrightsWraper{
+      @apply px-[24px] pt-6
+    }
+    .line{
+      @apply flex space-x-6  mt-8 border-t border-gray-400 pt-8
+    }
+    .copyrighttextWraper{
+      @apply text-center xl:text-start xl:flex justify-between
+    }
+    .copyrighttext {
+        @apply xl:mt-8 mb-1 text-[8px] sm:text-[16px] md:mb-2 leading-[14px] font-medium text-[#666666] md:mt-0
+      }
+      .smallButtonWraper{
+        @apply justify-end mt-[29px] hidden xl:flex
+      }
+     

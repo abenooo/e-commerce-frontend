@@ -3,6 +3,8 @@ import { Link } from "next/link";
 import { links } from "./Mylinks";
 import Image from "next/image";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
+
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { IoChevronDown, IoChevronUp } from "react-icons/io5";
 
 const NavLinks = () => {
