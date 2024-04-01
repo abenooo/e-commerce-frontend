@@ -1,5 +1,4 @@
 "use client";
-import Script from 'next/script'; // Correctly import Script from 'next/script'
 import Carousel from "@/componet/Carousel";
 import Product from "@/componet/Product";
 import Testimonial from "@/componet/Testimonial";
@@ -31,16 +30,6 @@ export default function Home() {
 
   return (
     <>
-      <Script
-        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-        strategy="beforeInteractive"
-        type="module"
-      />
-      <Script
-        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-        strategy="beforeInteractive"
-        nomodule
-      />
       <main>
         <Carousel />
         <Product />
