@@ -3,6 +3,7 @@ import { BsSearch } from "react-icons/bs";
 import { BiUser } from "react-icons/bi";
 import { FiHeart } from "react-icons/fi";
 import { HiOutlineShoppingBag } from "react-icons/hi";
+import {AiOutlineDown} from "react-icons/ai"
 const MainHeader = () => {
   return (
     <div className="border-b border-gray-200 py-6">
@@ -14,14 +15,17 @@ const MainHeader = () => {
         {/* search area */}
         <div className="width-100 sm:w-[300] md:w-[70%] relative ">
           <input
-            className="border-gray-200 border py-2 px-4 rounded-lg w-full "
+            className="border-gray-200 border py-2 px-12 rounded-lg w-full "
             type="text"
             placeholder="search for product, brancd and many more"
           />
           <BsSearch
-            className="absolute right-0 top-0 mr-3 mt-3 cursor-pointer text-gray-400"
+            className="absolute left-0 ml-5 top-0 mr-3 mt-3 cursor-pointer text-gray-400"
             size={20}
           />
+          <AiOutlineDown  
+          className="absolute right-0 top-0 mt-3 mr-3 text-gray-400"
+    size={20}/>
         </div>
 
         {/* right side */}
