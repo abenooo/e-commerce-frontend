@@ -164,34 +164,6 @@ export const links = [
     ],
   },
   {
-    name: "Industrial equipment",
-    submenu: true,
-    sublinks: [
-      {
-        Head: "Topwear",
-        imageURL:"asset/$_574.jpeg", 
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
-      {
-        Head: "Bottomwear",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
-
-    ],
-  },
-  {
     name: "Home & Garden",
     submenu: true,
     sublinks: [
@@ -237,33 +209,6 @@ export const links = [
       },
       {
         Head: "footwear",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
-    ],
-  },
-  {
-    name: "Sell",
-    submenu: true,
-    sublinks: [
-      {
-        Head: "Topwear",
-        imageURL: "asset/$_577.jpeg", 
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
-      {
-        Head: "Bottomwear",
         sublink: [
           { name: "T-shirt", link: "/" },
           { name: "Casual shirts", link: "/" },
