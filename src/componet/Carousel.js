@@ -5,13 +5,28 @@ import Slide from "./Slide";
 
 // carousal setting
 const Carousel = () => {
-  let settings = {
+  const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 2,
+    autoplay:true,
+    slidesToShow: 2, // Default number of slides to show
     slidesToScroll: 1,
-    autoplay: true,
-    pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 768, // Width up to 768px
+        settings: {
+          slidesToShow: 1, // Show 1 slide for screens smaller than 768px
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1024, // Width up to 1024px and above
+        settings: {
+          slidesToShow: 2, // Show 2 slides for screens larger than 768px
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   // data
   const slideData = [
