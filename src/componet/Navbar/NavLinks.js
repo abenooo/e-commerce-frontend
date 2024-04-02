@@ -14,7 +14,7 @@ const NavLinks = () => {
         <div key={link.name}>
           <div className="px-3  text-left md:cursor-pointer group">
             <h1
-              className="py-7 flex justify-between items-center md:pr-0 pr-5 group"
+              className="py-7 flex justify-between items-center md:pr-0 pr-5 group text-gray-500 text-[14px] "
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
@@ -30,7 +30,7 @@ const NavLinks = () => {
             </h1>
             {link.submenu && (
               <div>
-                <div className="absolute w-full left-0 top-20 hidden group-hover:md:block hover:md:block border-4 border-gray-100 ">
+                <div className="absolute w-full left-0 top-14 hidden group-hover:md:block hover:md:block border-4 border-gray-100 ">
                   <div className="py-3">
                     <div
                       className="w-4 h-4 left-3 absolute 
@@ -48,7 +48,7 @@ const NavLinks = () => {
                             {mysublinks.sublink.map((slink, subIndex) => (
                               <li
                                 key={subIndex} // Added unique key
-                                className="text-sm text-gray-600 my-2.5 hover:text-primary"
+                                className="text-sm text-gray-600 my-2.5 hover:text-accent font-[Poppins] text-[12px]"
                               >
                                 <a href={slink.link}>{slink.name}</a>
                               </li>
