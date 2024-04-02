@@ -17,7 +17,7 @@ const Navbar = () => {
             {open ? <IoClose /> : <IoMenu />}
           </div>
         </div>
-        <ul className="md:flex  relative hidden uppercase items-center gap-8 font-[Poppins]">
+        <ul className="md:flex text-gray-500 text-[14px] relative hidden uppercase items-center gap-8 font-[Poppins]">
           <li>
             <Link href="/">Home</Link>
           </li>
@@ -30,8 +30,8 @@ const Navbar = () => {
             open ? "translate-x-0" : "-translate-x-full"
           } transition-transform duration-300 ease-in-out`}
         >
-          <li>
-            <Link href="/">Home</Link>
+          <li className="text-gray-500 text-[12px]">
+            <Link href="/" className="text-xs">Home</Link>
           </li>
           <NavLinks />
         </ul>
