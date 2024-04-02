@@ -1,7 +1,33 @@
 "use client"
 export const links = [
   {
-    name: "Men",
+    name: "Electronics",
+    submenu: true,
+    sublinks: [
+      {
+        Head: "Topwear",
+        imageURL: "asset/$_570.jpeg", 
+        sublink: [
+          { name: "T-shirt", link: "/" },
+          { name: "Casual shirts", link: "/" },
+          { name: "formal shirts", link: "/" },
+          { name: "formal shirts", link: "/" },
+          { name: "formal shirts", link: "/" },
+        ],
+      },
+      {
+        Head: "Bottomwear",
+        sublink: [
+          { name: "T-shirt", link: "/" },
+          { name: "Casual shirts", link: "/" },
+          { name: "formal shirts", link: "/" },
+          { name: "formal shirts", link: "/" },
+          { name: "formal shirts", link: "/" },
+        ],
+      },
+    ],
+  }, {
+    name: "Motors",
     submenu: true,
     sublinks: [
       {
@@ -28,7 +54,7 @@ export const links = [
     ],
   },
   {
-    name: "Electronics",
+    name: "Fashion",
     submenu: true,
     sublinks: [
       {
@@ -56,7 +82,7 @@ export const links = [
     ],
   },
   {
-    name: "Motors",
+    name: "Collection & Art",
     submenu: true,
     sublinks: [
       {
@@ -83,7 +109,7 @@ export const links = [
     ],
   },
   {
-    name: "Women",
+    name: "Sports",
     submenu: true,
     imageURL: "asset/$_573.jpeg", 
     sublinks: [
@@ -111,7 +137,7 @@ export const links = [
     ],
   },
   {
-    name: "Kid's",
+    name: "Health & Beauty",
     submenu: true,
     sublinks: [
       {
@@ -138,7 +164,7 @@ export const links = [
     ],
   },
   {
-    name: "Women",
+    name: "Industrial equipment",
     submenu: true,
     sublinks: [
       {
@@ -166,7 +192,7 @@ export const links = [
     ],
   },
   {
-    name: "Kid's",
+    name: "Home & Garden",
     submenu: true,
     sublinks: [
       {
@@ -194,7 +220,7 @@ export const links = [
     ],
   },
   {
-    name: "Women",
+    name: "Deals",
     submenu: true,
     sublinks: [
 
@@ -222,7 +248,7 @@ export const links = [
     ],
   },
   {
-    name: "Kid's",
+    name: "Sell",
     submenu: true,
     sublinks: [
       {
