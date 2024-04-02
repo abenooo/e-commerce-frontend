@@ -1,8 +1,6 @@
-// First, import useState and Link
 "use client";
 import React, { useState } from "react";
-import Link from "next/link"; // Make sure this is the correct import
-// Import specific icons from React Icons
+import Link from "next/link"; 
 import { IoClose, IoMenu } from "react-icons/io5";
 import NavLinks from "./NavLinks";
 
@@ -21,7 +19,6 @@ const Navbar = () => {
           <li>
             <Link href="/">Home</Link>
           </li>
-          {/* Assuming NavLinks renders additional nav items */}
           <NavLinks />
         </ul>
         {/* Mobile Menu */}
