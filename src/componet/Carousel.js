@@ -8,10 +8,10 @@ const Carousel = () => {
   let settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    pauseOnHover: true,
+    pauseOnHover: false,
   };
   // data
   const slideData = [
